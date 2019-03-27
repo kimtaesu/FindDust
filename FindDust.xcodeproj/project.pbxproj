@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CC7C95C517D23E3051C2BE9 /* Pods_FindDustTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D4A04003D14ACEEE3CF185 /* Pods_FindDustTests.framework */; };
+		6B5308FC153FDA5A7F105B8A /* Pods_FindDustUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FEFA79DFDB75576A6501280 /* Pods_FindDustUITests.framework */; };
+		A7D9D809867F956D0080A5D1 /* Pods_FindDust.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E8651A7C85A0212B32095B /* Pods_FindDust.framework */; };
+		BD0CF32B224B8684006F1BA1 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = BD0CF328224B8684006F1BA1 /* .swiftlint.yml */; };
+		BD0CF32C224B8684006F1BA1 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = BD0CF329224B8684006F1BA1 /* Cartfile */; };
+		BD0CF32D224B8684006F1BA1 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BD0CF32A224B8684006F1BA1 /* .gitignore */; };
+		BD0CF334224B868D006F1BA1 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0CF32F224B868D006F1BA1 /* Assets.swift */; };
+		BD0CF335224B868D006F1BA1 /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0CF330224B868D006F1BA1 /* L10n.swift */; };
+		BD0CF336224B868D006F1BA1 /* MyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0CF331224B868D006F1BA1 /* MyColor.swift */; };
+		BD0CF337224B868D006F1BA1 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0CF332224B868D006F1BA1 /* Fonts.swift */; };
+		BD0CF338224B868D006F1BA1 /* Plist.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0CF333224B868D006F1BA1 /* Plist.swift */; };
+		BDF7E0F9224B854300492607 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7E0F8224B854300492607 /* AppDelegate.swift */; };
+		BDF7E0FB224B854300492607 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7E0FA224B854300492607 /* ViewController.swift */; };
+		BDF7E0FE224B854300492607 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF7E0FC224B854300492607 /* Main.storyboard */; };
+		BDF7E101224B854300492607 /* FindDust.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDF7E0FF224B854300492607 /* FindDust.xcdatamodeld */; };
+		BDF7E103224B854400492607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF7E102224B854400492607 /* Assets.xcassets */; };
+		BDF7E106224B854400492607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF7E104224B854400492607 /* LaunchScreen.storyboard */; };
+		BDF7E111224B854400492607 /* FindDustTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7E110224B854400492607 /* FindDustTests.swift */; };
+		BDF7E11C224B854400492607 /* FindDustUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7E11B224B854400492607 /* FindDustUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDF7E10D224B854400492607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDF7E0ED224B854300492607 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDF7E0F4224B854300492607;
+			remoteInfo = FindDust;
+		};
+		BDF7E118224B854400492607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDF7E0ED224B854300492607 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDF7E0F4224B854300492607;
+			remoteInfo = FindDust;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22C5867F1918468696B6B56C /* Pods-FindDustUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindDustUITests.release.xcconfig"; path = "Target Support Files/Pods-FindDustUITests/Pods-FindDustUITests.release.xcconfig"; sourceTree = "<group>"; };
+		32E8651A7C85A0212B32095B /* Pods_FindDust.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindDust.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		397118E4759AFD9264B27F36 /* Pods-FindDustUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindDustUITests.debug.xcconfig"; path = "Target Support Files/Pods-FindDustUITests/Pods-FindDustUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3EE05C915AEC610418A352DE /* Pods-FindDust.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindDust.release.xcconfig"; path = "Target Support Files/Pods-FindDust/Pods-FindDust.release.xcconfig"; sourceTree = "<group>"; };
+		61BF8D75C5A35B07959E9CFF /* Pods-FindDustTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindDustTests.debug.xcconfig"; path = "Target Support Files/Pods-FindDustTests/Pods-FindDustTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FEFA79DFDB75576A6501280 /* Pods_FindDustUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindDustUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AEB0F8FE89CE4A4C14FB078 /* Pods-FindDustTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindDustTests.release.xcconfig"; path = "Target Support Files/Pods-FindDustTests/Pods-FindDustTests.release.xcconfig"; sourceTree = "<group>"; };
+		A2D4A04003D14ACEEE3CF185 /* Pods_FindDustTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindDustTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0CF328224B8684006F1BA1 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
+		BD0CF329224B8684006F1BA1 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		BD0CF32A224B8684006F1BA1 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		BD0CF32F224B868D006F1BA1 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		BD0CF330224B868D006F1BA1 /* L10n.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L10n.swift; sourceTree = "<group>"; };
+		BD0CF331224B868D006F1BA1 /* MyColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyColor.swift; sourceTree = "<group>"; };
+		BD0CF332224B868D006F1BA1 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		BD0CF333224B868D006F1BA1 /* Plist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plist.swift; sourceTree = "<group>"; };
+		BDF7E0F5224B854300492607 /* FindDust.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindDust.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF7E0F8224B854300492607 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDF7E0FA224B854300492607 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDF7E0FD224B854300492607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDF7E100224B854300492607 /* FindDust.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FindDust.xcdatamodel; sourceTree = "<group>"; };
+		BDF7E102224B854400492607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDF7E105224B854400492607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDF7E107224B854400492607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF7E10C224B854400492607 /* FindDustTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindDustTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF7E110224B854400492607 /* FindDustTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDustTests.swift; sourceTree = "<group>"; };
+		BDF7E112224B854400492607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF7E117224B854400492607 /* FindDustUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindDustUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF7E11B224B854400492607 /* FindDustUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDustUITests.swift; sourceTree = "<group>"; };
+		BDF7E11D224B854400492607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D61A98B64FF187DBCFC5C478 /* Pods-FindDust.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindDust.debug.xcconfig"; path = "Target Support Files/Pods-FindDust/Pods-FindDust.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDF7E0F2224B854300492607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D9D809867F956D0080A5D1 /* Pods_FindDust.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF7E109224B854400492607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC7C95C517D23E3051C2BE9 /* Pods_FindDustTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF7E114224B854400492607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5308FC153FDA5A7F105B8A /* Pods_FindDustUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39E6C796577ABBC4FB492221 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D61A98B64FF187DBCFC5C478 /* Pods-FindDust.debug.xcconfig */,
+				3EE05C915AEC610418A352DE /* Pods-FindDust.release.xcconfig */,
+				61BF8D75C5A35B07959E9CFF /* Pods-FindDustTests.debug.xcconfig */,
+				9AEB0F8FE89CE4A4C14FB078 /* Pods-FindDustTests.release.xcconfig */,
+				397118E4759AFD9264B27F36 /* Pods-FindDustUITests.debug.xcconfig */,
+				22C5867F1918468696B6B56C /* Pods-FindDustUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A3474F062C11F29A20983342 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32E8651A7C85A0212B32095B /* Pods_FindDust.framework */,
+				A2D4A04003D14ACEEE3CF185 /* Pods_FindDustTests.framework */,
+				7FEFA79DFDB75576A6501280 /* Pods_FindDustUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD0CF32E224B868D006F1BA1 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				BD0CF32F224B868D006F1BA1 /* Assets.swift */,
+				BD0CF330224B868D006F1BA1 /* L10n.swift */,
+				BD0CF331224B868D006F1BA1 /* MyColor.swift */,
+				BD0CF332224B868D006F1BA1 /* Fonts.swift */,
+				BD0CF333224B868D006F1BA1 /* Plist.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		BDF7E0EC224B854300492607 = {
+			isa = PBXGroup;
+			children = (
+				BD0CF32E224B868D006F1BA1 /* Generated */,
+				BD0CF32A224B8684006F1BA1 /* .gitignore */,
+				BD0CF328224B8684006F1BA1 /* .swiftlint.yml */,
+				BD0CF329224B8684006F1BA1 /* Cartfile */,
+				BDF7E0F7224B854300492607 /* FindDust */,
+				BDF7E10F224B854400492607 /* FindDustTests */,
+				BDF7E11A224B854400492607 /* FindDustUITests */,
+				BDF7E0F6224B854300492607 /* Products */,
+				39E6C796577ABBC4FB492221 /* Pods */,
+				A3474F062C11F29A20983342 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BDF7E0F6224B854300492607 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDF7E0F5224B854300492607 /* FindDust.app */,
+				BDF7E10C224B854400492607 /* FindDustTests.xctest */,
+				BDF7E117224B854400492607 /* FindDustUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDF7E0F7224B854300492607 /* FindDust */ = {
+			isa = PBXGroup;
+			children = (
+				BDF7E0F8224B854300492607 /* AppDelegate.swift */,
+				BDF7E0FA224B854300492607 /* ViewController.swift */,
+				BDF7E0FC224B854300492607 /* Main.storyboard */,
+				BDF7E102224B854400492607 /* Assets.xcassets */,
+				BDF7E104224B854400492607 /* LaunchScreen.storyboard */,
+				BDF7E107224B854400492607 /* Info.plist */,
+				BDF7E0FF224B854300492607 /* FindDust.xcdatamodeld */,
+			);
+			path = FindDust;
+			sourceTree = "<group>";
+		};
+		BDF7E10F224B854400492607 /* FindDustTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDF7E110224B854400492607 /* FindDustTests.swift */,
+				BDF7E112224B854400492607 /* Info.plist */,
+			);
+			path = FindDustTests;
+			sourceTree = "<group>";
+		};
+		BDF7E11A224B854400492607 /* FindDustUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDF7E11B224B854400492607 /* FindDustUITests.swift */,
+				BDF7E11D224B854400492607 /* Info.plist */,
+			);
+			path = FindDustUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDF7E0F4224B854300492607 /* FindDust */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF7E120224B854400492607 /* Build configuration list for PBXNativeTarget "FindDust" */;
+			buildPhases = (
+				14F2B11EBE2FBE11026CC9D6 /* [CP] Check Pods Manifest.lock */,
+				BDF7E0F1224B854300492607 /* Sources */,
+				BDF7E0F2224B854300492607 /* Frameworks */,
+				BDF7E0F3224B854300492607 /* Resources */,
+				B8A96551449DDA7F68EDB25E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindDust;
+			productName = FindDust;
+			productReference = BDF7E0F5224B854300492607 /* FindDust.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDF7E10B224B854400492607 /* FindDustTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF7E123224B854400492607 /* Build configuration list for PBXNativeTarget "FindDustTests" */;
+			buildPhases = (
+				58AE51421DD50CEA656147C9 /* [CP] Check Pods Manifest.lock */,
+				BDF7E108224B854400492607 /* Sources */,
+				BDF7E109224B854400492607 /* Frameworks */,
+				BDF7E10A224B854400492607 /* Resources */,
+				9DF15800776200B038ADC2B8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDF7E10E224B854400492607 /* PBXTargetDependency */,
+			);
+			name = FindDustTests;
+			productName = FindDustTests;
+			productReference = BDF7E10C224B854400492607 /* FindDustTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDF7E116224B854400492607 /* FindDustUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF7E126224B854400492607 /* Build configuration list for PBXNativeTarget "FindDustUITests" */;
+			buildPhases = (
+				B1539670E603747C1743A5BB /* [CP] Check Pods Manifest.lock */,
+				BDF7E113224B854400492607 /* Sources */,
+				BDF7E114224B854400492607 /* Frameworks */,
+				BDF7E115224B854400492607 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDF7E119224B854400492607 /* PBXTargetDependency */,
+			);
+			name = FindDustUITests;
+			productName = FindDustUITests;
+			productReference = BDF7E117224B854400492607 /* FindDustUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDF7E0ED224B854300492607 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = hucet;
+				TargetAttributes = {
+					BDF7E0F4224B854300492607 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					BDF7E10B224B854400492607 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BDF7E0F4224B854300492607;
+					};
+					BDF7E116224B854400492607 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BDF7E0F4224B854300492607;
+					};
+				};
+			};
+			buildConfigurationList = BDF7E0F0224B854300492607 /* Build configuration list for PBXProject "FindDust" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDF7E0EC224B854300492607;
+			productRefGroup = BDF7E0F6224B854300492607 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDF7E0F4224B854300492607 /* FindDust */,
+				BDF7E10B224B854400492607 /* FindDustTests */,
+				BDF7E116224B854400492607 /* FindDustUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDF7E0F3224B854300492607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0CF32C224B8684006F1BA1 /* Cartfile in Resources */,
+				BD0CF32B224B8684006F1BA1 /* .swiftlint.yml in Resources */,
+				BDF7E106224B854400492607 /* LaunchScreen.storyboard in Resources */,
+				BDF7E103224B854400492607 /* Assets.xcassets in Resources */,
+				BD0CF32D224B8684006F1BA1 /* .gitignore in Resources */,
+				BDF7E0FE224B854300492607 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF7E10A224B854400492607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF7E115224B854400492607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14F2B11EBE2FBE11026CC9D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindDust-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58AE51421DD50CEA656147C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindDustTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DF15800776200B038ADC2B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindDustTests/Pods-FindDustTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindDustTests/Pods-FindDustTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1539670E603747C1743A5BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindDustUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8A96551449DDA7F68EDB25E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindDust/Pods-FindDust-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindDust/Pods-FindDust-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDF7E0F1224B854300492607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0CF337224B868D006F1BA1 /* Fonts.swift in Sources */,
+				BDF7E101224B854300492607 /* FindDust.xcdatamodeld in Sources */,
+				BD0CF338224B868D006F1BA1 /* Plist.swift in Sources */,
+				BDF7E0FB224B854300492607 /* ViewController.swift in Sources */,
+				BD0CF334224B868D006F1BA1 /* Assets.swift in Sources */,
+				BDF7E0F9224B854300492607 /* AppDelegate.swift in Sources */,
+				BD0CF335224B868D006F1BA1 /* L10n.swift in Sources */,
+				BD0CF336224B868D006F1BA1 /* MyColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF7E108224B854400492607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF7E111224B854400492607 /* FindDustTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF7E113224B854400492607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF7E11C224B854400492607 /* FindDustUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDF7E10E224B854400492607 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDF7E0F4224B854300492607 /* FindDust */;
+			targetProxy = BDF7E10D224B854400492607 /* PBXContainerItemProxy */;
+		};
+		BDF7E119224B854400492607 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDF7E0F4224B854300492607 /* FindDust */;
+			targetProxy = BDF7E118224B854400492607 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDF7E0FC224B854300492607 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF7E0FD224B854300492607 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDF7E104224B854400492607 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF7E105224B854400492607 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDF7E11E224B854400492607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDF7E11F224B854400492607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDF7E121224B854400492607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D61A98B64FF187DBCFC5C478 /* Pods-FindDust.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 576T8HK6X4;
+				INFOPLIST_FILE = FindDust/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hucet.FindDust;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDF7E122224B854400492607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EE05C915AEC610418A352DE /* Pods-FindDust.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 576T8HK6X4;
+				INFOPLIST_FILE = FindDust/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hucet.FindDust;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDF7E124224B854400492607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61BF8D75C5A35B07959E9CFF /* Pods-FindDustTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 576T8HK6X4;
+				INFOPLIST_FILE = FindDustTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hucet.FindDustTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindDust.app/FindDust";
+			};
+			name = Debug;
+		};
+		BDF7E125224B854400492607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AEB0F8FE89CE4A4C14FB078 /* Pods-FindDustTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 576T8HK6X4;
+				INFOPLIST_FILE = FindDustTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hucet.FindDustTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindDust.app/FindDust";
+			};
+			name = Release;
+		};
+		BDF7E127224B854400492607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 397118E4759AFD9264B27F36 /* Pods-FindDustUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 576T8HK6X4;
+				INFOPLIST_FILE = FindDustUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hucet.FindDustUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindDust;
+			};
+			name = Debug;
+		};
+		BDF7E128224B854400492607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22C5867F1918468696B6B56C /* Pods-FindDustUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 576T8HK6X4;
+				INFOPLIST_FILE = FindDustUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hucet.FindDustUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindDust;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDF7E0F0224B854300492607 /* Build configuration list for PBXProject "FindDust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF7E11E224B854400492607 /* Debug */,
+				BDF7E11F224B854400492607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF7E120224B854400492607 /* Build configuration list for PBXNativeTarget "FindDust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF7E121224B854400492607 /* Debug */,
+				BDF7E122224B854400492607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF7E123224B854400492607 /* Build configuration list for PBXNativeTarget "FindDustTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF7E124224B854400492607 /* Debug */,
+				BDF7E125224B854400492607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF7E126224B854400492607 /* Build configuration list for PBXNativeTarget "FindDustUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF7E127224B854400492607 /* Debug */,
+				BDF7E128224B854400492607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDF7E0FF224B854300492607 /* FindDust.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDF7E100224B854300492607 /* FindDust.xcdatamodel */,
+			);
+			currentVersion = BDF7E100224B854300492607 /* FindDust.xcdatamodel */;
+			path = FindDust.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BDF7E0ED224B854300492607 /* Project object */;
+}
